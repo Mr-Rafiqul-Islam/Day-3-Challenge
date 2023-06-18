@@ -1,0 +1,170 @@
+*{
+    margin: 0;padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* all common css ends  */
+
+body{
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #7F8499;
+}
+h1{
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.2;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-bottom: 24px;
+    
+}
+
+/* all Global css ends  */
+
+.banner{
+    background: url(../images/carousel-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.overlay{
+    background: rgba(1, 10, 53, 0.706);
+    padding-top: 230px;
+    padding-bottom: 170px;
+}
+
+.banner p{
+    font-size: 1.25rem;
+    margin: 0 48px 24px 48px;
+    padding-bottom: 8px;
+}
+.btn{
+    color: white;
+    background-color: #FF800F;
+    border-color: #FF800F;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    padding: 16px 48px;
+}
+.row{
+    width: 1164px;
+    height: 517.25px;
+    margin: 45px auto;
+    position: relative;
+    
+}
+.col1{
+    width: 50%;
+    height: 100%;
+    padding: 48px 24px 0px;
+    position: absolute;
+    left: 0;
+}
+.content h2{
+    font-size: 40px;
+    font-family:'Roboto Slab', serif;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 48px;
+    color: #010A35;
+}
+.content p{
+    margin-bottom: 24px;
+}
+.row2{
+    width: 100%;
+    padding: 30px 0px ;
+}
+.c1{
+    
+    float: left;
+    font-size: 1.25rem;
+    font-family: "Roboto Slab",serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #010A35;
+    margin-right: 90px;
+}
+.c2{
+    
+    float: left;
+    font-size: 1.25rem;
+    font-family: "Roboto Slab",serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #010A35;
+}
+.col2{
+    height: 100%;
+    width: 50%;
+    padding: 48px 24px 0px;
+    position: absolute;
+    right: 0;
+}
+.col2 .box1{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.col2 .box1 img{
+    width: 195px;
+    height: 195px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.col2 .box2{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.col2 .box2 img{
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.col2 .box3{
+    width: 50%;
+    height: 50%;
+    position: absolute; 
+    bottom: 0;
+    left: 0;   
+}
+.col2 .box3 img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.col2 .box4{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.col2 .box4 img{
+    width: 195px;
+    height: 195px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
